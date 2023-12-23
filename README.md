@@ -5,6 +5,7 @@
 ## Problem Statement
 Develop an integrated electro-mechanical system that combines circuitry, electronics, communication, and programming skills to manage and automate the process of exchanging batteries in a drone. The system must be capable of signaling the drone when it is ready to receive a new battery, safely releasing and retrieving the spent battery upon the drone's landing, charging the retrieved battery, and replacing it with a fully charged one.
 
+## Introduction
 We've developed a unique system for automated drone battery management, integrating piezoelectric pressure sensors, IR sensors, current and voltage sensors, along with machine learning. This system automates battery swapping and charging, ensuring efficient and reliable drone operation. We're excited to demonstrate how this project works.
 
 **Videos of Sensors Working:** [Google Drive Link](https://drive.google.com/drive/folders/1AxMasG1DAn7S7FXbqJBiqWYhx8WE8ldV?usp=share_link)
@@ -19,7 +20,7 @@ In our project, we are going to use 2 IR and 2 Piezo Sensors Integrated with an 
 4. Observe messages displayed on the connected 20x4 LCD when pressure is detected.
 
 ## How Voltage Sensor Works
-In our Project, we are going to use a Voltage sensor with an LCD display. For the Voltage Sensor, use this file: `Display_T1.ino`.
+In our Project, we are going to use a Voltage sensor with an LCD display. For the Voltage Sensor, use this file: `Display_T1/Display_T1.ino`.
 
 ### Steps:
 1. Connect the voltage divider circuit and 20x4 LCD to the Arduino board.
@@ -28,7 +29,7 @@ In our Project, we are going to use a Voltage sensor with an LCD display. For th
 4. Observe voltage displayed on the connected 20x4 LCD.
 
 ## How Current Sensor Works
-We are going to use a Current sensor with an LCD display. For the Current Sensor, use this file: `Display_Power_T2.ino`.
+We are going to use a Current sensor with an LCD display. For the Current Sensor, use this file: `Display_Power_T2/Display_Power_T2.ino`.
 
 ### Steps:
 1. Connect the INA219 sensor and 20x4 LCD to the Arduino board.
