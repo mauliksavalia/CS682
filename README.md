@@ -1,7 +1,7 @@
 # Project 6: Smart Recharging Platform for Drones and Ultracapacitors
 
 **Code Documentation:** [SensorAndML-Documentation](https://mauliksavalia.github.io/SensorAndML-Documentation/index.html)
-
+**Setup-Guide:** [Setup](file:///Users/msavalia/Desktop/Documentation/Setup.html)
 ## Problem Statement
 Develop an integrated electro-mechanical system that combines circuitry, electronics, communication, and programming skills to manage and automate the process of exchanging batteries in a drone. The system must be capable of signaling the drone when it is ready to receive a new battery, safely releasing and retrieving the spent battery upon the drone's landing, charging the retrieved battery, and replacing it with a fully charged one.
 
